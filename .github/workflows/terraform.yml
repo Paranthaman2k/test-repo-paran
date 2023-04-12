@@ -84,7 +84,7 @@ jobs:
     
     # Changing the working directory
     - name: chnage the directory
-      run: cd /src/      
+      run: cd /test-repo-paran/src/      
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
