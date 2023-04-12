@@ -81,6 +81,10 @@ jobs:
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
       run: terraform fmt -check
+    
+    # Changing the working directory
+    - name: chnage the directory
+      run: cd /src/      
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
