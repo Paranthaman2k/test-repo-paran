@@ -87,7 +87,4 @@ jobs:
       run: terraform plan
       env: 
           ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY_ID }}
-          SECRET_KEY_ID: ${{ secrets.SECRET_KEY_ID }}
-
-
-     
+          SECRET_KEY_ID: ${{ secrets.SECRET_KEY_ID }}  
