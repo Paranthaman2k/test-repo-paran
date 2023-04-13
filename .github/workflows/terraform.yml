@@ -15,8 +15,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-          
+          password: ${{ secrets.DOCKER_HUB_PASSWORD }}          
       - name: Docker run
         run: docker run -v $(pwd):/app paranthaman2k/aws-terraform:V1 
         
