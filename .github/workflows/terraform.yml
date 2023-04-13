@@ -85,7 +85,7 @@ jobs:
  
     # Check the current working directory
     - name: setup path
-      uses: ./.github-actions/workflow/terraform.yml
+      action: ./.github-actions/workflow/terraform.yml
       with:
         inputpaths: test-repo-paran/src/main.tf
 
