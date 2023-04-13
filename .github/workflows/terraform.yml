@@ -77,6 +77,11 @@ jobs:
     # Changing the working directory
     - name: change the directory
       run: cd src       
+      
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v3
+
  
     # Check the current working directory
     - name: setup path
