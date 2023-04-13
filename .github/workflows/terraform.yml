@@ -85,7 +85,7 @@ jobs:
  
     # Check the current working directory
     - name: setup path
-      uses: ./.github-actions/workflow/eval
+      uses: ./.github-actions/workflow/
       with:
         inputpaths: test-repo-paran/src/
 
