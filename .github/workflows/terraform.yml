@@ -87,7 +87,7 @@ jobs:
     - name: setup path
       uses: ./.github-actions/workflow/terraform.yml
       with:
-        inputpaths: test-repo-paran/src/
+        inputpaths: test-repo-paran/src/main.tf
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
